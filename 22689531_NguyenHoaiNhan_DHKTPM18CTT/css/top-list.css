@@ -1,0 +1,36 @@
+#top-list {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(203, 149, 158);
+}
+#list-container {
+    display: flex;
+}
+#menu-list li {
+    float: left;
+    list-style: none;
+    margin: 0px 20px;
+    cursor: pointer;
+    color: purple;
+    font-weight: bold;
+}
+#menu-list li:hover {
+    color: blue;
+}
+#search-container {
+    display: flex;
+    align-items: center;
+    margin: 0px 20px;
+}
+#search-label {
+    color: red;
+}
+#search-button {
+    /* display: flex; */
+    /* color: cyan; */
+    background-color: cyan;
+    border-radius: 5px;
+    padding: 2px 2px;
+    border: none;
+}
